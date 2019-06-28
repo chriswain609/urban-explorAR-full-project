@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8305A2B3223D713C0064DBD8 /* profanities.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8305A2B2223D713C0064DBD8 /* profanities.txt */; };
+		8308424B220AEC9D001F67FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308424A220AEC9D001F67FE /* AppDelegate.swift */; };
+		8308424D220AEC9D001F67FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308424C220AEC9D001F67FE /* ViewController.swift */; };
+		83084250220AEC9D001F67FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8308424E220AEC9D001F67FE /* Main.storyboard */; };
+		83084253220AEC9D001F67FE /* urban_explorAR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83084251220AEC9D001F67FE /* urban_explorAR.xcdatamodeld */; };
+		83084255220AEC9E001F67FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83084254220AEC9E001F67FE /* Assets.xcassets */; };
+		83084258220AEC9E001F67FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83084256220AEC9E001F67FE /* LaunchScreen.storyboard */; };
+		83084262220AED76001F67FE /* treasureHunt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83084261220AED76001F67FE /* treasureHunt.swift */; };
+		83084264220AF7FB001F67FE /* OneDirection.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83084263220AF7FB001F67FE /* OneDirection.ttf */; };
+		83084275220B00B1001F67FE /* BitDarling10_sRB_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 83084274220B00B1001F67FE /* BitDarling10_sRB_.TTF */; };
+		833EF5E0223FBC5B001CB204 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833EF5DF223FBC5B001CB204 /* LeaderboardViewController.swift */; };
+		8348A08B221190B8004AF14A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8348A08A221190B8004AF14A /* Podfile */; };
+		8348A08D221194FB004AF14A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8348A08C221194FB004AF14A /* MapViewController.swift */; };
+		834DF85A22119889009600AA /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 834DF85922119889009600AA /* style.json */; };
+		839DD017220C2A8900109F1F /* score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839DD016220C2A8900109F1F /* score.swift */; };
+		839DD019220C2B0A00109F1F /* object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839DD018220C2B0A00109F1F /* object.swift */; };
+		83DE300A2220314400AFD856 /* SceneKitAssetCatalog.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 83DE30092220314400AFD856 /* SceneKitAssetCatalog.scnassets */; };
+		83F20261224118A1005F36FC /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F20260224118A1005F36FC /* InstructionsViewController.swift */; };
+		83F265912220237700C18622 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F265902220237700C18622 /* ARViewController.swift */; };
+		FDE56E093F32F5FF9C246718 /* libPods-urban explorAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 995C816AF2FA56568E92C3E6 /* libPods-urban explorAR.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1742DDDD959ECE989C7019D3 /* Pods-urban explorAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-urban explorAR.release.xcconfig"; path = "Target Support Files/Pods-urban explorAR/Pods-urban explorAR.release.xcconfig"; sourceTree = "<group>"; };
+		8305A2B2223D713C0064DBD8 /* profanities.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = profanities.txt; sourceTree = "<group>"; };
+		83084247220AEC9D001F67FE /* urban explorAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "urban explorAR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8308424A220AEC9D001F67FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8308424C220AEC9D001F67FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8308424F220AEC9D001F67FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83084252220AEC9D001F67FE /* urban_explorAR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = urban_explorAR.xcdatamodel; sourceTree = "<group>"; };
+		83084254220AEC9E001F67FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83084257220AEC9E001F67FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83084259220AEC9E001F67FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83084261220AED76001F67FE /* treasureHunt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = treasureHunt.swift; sourceTree = "<group>"; };
+		83084263220AF7FB001F67FE /* OneDirection.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OneDirection.ttf; sourceTree = "<group>"; };
+		83084274220B00B1001F67FE /* BitDarling10_sRB_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BitDarling10_sRB_.TTF; sourceTree = "<group>"; };
+		833EF5DF223FBC5B001CB204 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		8348A08A221190B8004AF14A /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8348A08C221194FB004AF14A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		834DF85922119889009600AA /* style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		839DD016220C2A8900109F1F /* score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = score.swift; sourceTree = "<group>"; };
+		839DD018220C2B0A00109F1F /* object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = object.swift; sourceTree = "<group>"; };
+		83DE30092220314400AFD856 /* SceneKitAssetCatalog.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = SceneKitAssetCatalog.scnassets; sourceTree = "<group>"; };
+		83F20260224118A1005F36FC /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		83F265902220237700C18622 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		8CCC54C5E36D74070A62360E /* Pods-urban explorAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-urban explorAR.debug.xcconfig"; path = "Target Support Files/Pods-urban explorAR/Pods-urban explorAR.debug.xcconfig"; sourceTree = "<group>"; };
+		995C816AF2FA56568E92C3E6 /* libPods-urban explorAR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-urban explorAR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83084244220AEC9D001F67FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE56E093F32F5FF9C246718 /* libPods-urban explorAR.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4433C339E32BBF28589DF89E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CCC54C5E36D74070A62360E /* Pods-urban explorAR.debug.xcconfig */,
+				1742DDDD959ECE989C7019D3 /* Pods-urban explorAR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8092320032D78CF12411DD6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				995C816AF2FA56568E92C3E6 /* libPods-urban explorAR.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8308423E220AEC9D001F67FE = {
+			isa = PBXGroup;
+			children = (
+				8348A08A221190B8004AF14A /* Podfile */,
+				83084249220AEC9D001F67FE /* urban explorAR */,
+				83084248220AEC9D001F67FE /* Products */,
+				4433C339E32BBF28589DF89E /* Pods */,
+				8092320032D78CF12411DD6B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83084248220AEC9D001F67FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83084247220AEC9D001F67FE /* urban explorAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83084249220AEC9D001F67FE /* urban explorAR */ = {
+			isa = PBXGroup;
+			children = (
+				8308424A220AEC9D001F67FE /* AppDelegate.swift */,
+				83F265902220237700C18622 /* ARViewController.swift */,
+				8308424C220AEC9D001F67FE /* ViewController.swift */,
+				8348A08C221194FB004AF14A /* MapViewController.swift */,
+				833EF5DF223FBC5B001CB204 /* LeaderboardViewController.swift */,
+				83F20260224118A1005F36FC /* InstructionsViewController.swift */,
+				839DD01A220C2B7A00109F1F /* JSON_structures */,
+				8308424E220AEC9D001F67FE /* Main.storyboard */,
+				83084267220AF859001F67FE /* fonts */,
+				83084254220AEC9E001F67FE /* Assets.xcassets */,
+				8305A2B2223D713C0064DBD8 /* profanities.txt */,
+				83084256220AEC9E001F67FE /* LaunchScreen.storyboard */,
+				83084259220AEC9E001F67FE /* Info.plist */,
+				83084251220AEC9D001F67FE /* urban_explorAR.xcdatamodeld */,
+				834DF85922119889009600AA /* style.json */,
+				83DE30092220314400AFD856 /* SceneKitAssetCatalog.scnassets */,
+			);
+			path = "urban explorAR";
+			sourceTree = "<group>";
+		};
+		83084267220AF859001F67FE /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				83084274220B00B1001F67FE /* BitDarling10_sRB_.TTF */,
+				83084263220AF7FB001F67FE /* OneDirection.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		839DD01A220C2B7A00109F1F /* JSON_structures */ = {
+			isa = PBXGroup;
+			children = (
+				83084261220AED76001F67FE /* treasureHunt.swift */,
+				839DD016220C2A8900109F1F /* score.swift */,
+				839DD018220C2B0A00109F1F /* object.swift */,
+			);
+			path = JSON_structures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83084246220AEC9D001F67FE /* urban explorAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8308425C220AEC9E001F67FE /* Build configuration list for PBXNativeTarget "urban explorAR" */;
+			buildPhases = (
+				C8C5AAF46E39C4C73A98988A /* [CP] Check Pods Manifest.lock */,
+				83084243220AEC9D001F67FE /* Sources */,
+				83084244220AEC9D001F67FE /* Frameworks */,
+				83084245220AEC9D001F67FE /* Resources */,
+				75C55E57002CDADC65C0DE8C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "urban explorAR";
+			productName = "urban explorAR";
+			productReference = 83084247220AEC9D001F67FE /* urban explorAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8308423F220AEC9D001F67FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Christopher Wainwright";
+				TargetAttributes = {
+					83084246220AEC9D001F67FE = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 83084242220AEC9D001F67FE /* Build configuration list for PBXProject "urban explorAR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8308423E220AEC9D001F67FE;
+			productRefGroup = 83084248220AEC9D001F67FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83084246220AEC9D001F67FE /* urban explorAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83084245220AEC9D001F67FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8348A08B221190B8004AF14A /* Podfile in Resources */,
+				83084275220B00B1001F67FE /* BitDarling10_sRB_.TTF in Resources */,
+				83084258220AEC9E001F67FE /* LaunchScreen.storyboard in Resources */,
+				83084255220AEC9E001F67FE /* Assets.xcassets in Resources */,
+				83DE300A2220314400AFD856 /* SceneKitAssetCatalog.scnassets in Resources */,
+				83084250220AEC9D001F67FE /* Main.storyboard in Resources */,
+				8305A2B3223D713C0064DBD8 /* profanities.txt in Resources */,
+				834DF85A22119889009600AA /* style.json in Resources */,
+				83084264220AF7FB001F67FE /* OneDirection.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75C55E57002CDADC65C0DE8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-urban explorAR/Pods-urban explorAR-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-urban explorAR/Pods-urban explorAR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8C5AAF46E39C4C73A98988A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-urban explorAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83084243220AEC9D001F67FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83084262220AED76001F67FE /* treasureHunt.swift in Sources */,
+				83084253220AEC9D001F67FE /* urban_explorAR.xcdatamodeld in Sources */,
+				839DD019220C2B0A00109F1F /* object.swift in Sources */,
+				83F265912220237700C18622 /* ARViewController.swift in Sources */,
+				83F20261224118A1005F36FC /* InstructionsViewController.swift in Sources */,
+				833EF5E0223FBC5B001CB204 /* LeaderboardViewController.swift in Sources */,
+				8308424D220AEC9D001F67FE /* ViewController.swift in Sources */,
+				8308424B220AEC9D001F67FE /* AppDelegate.swift in Sources */,
+				839DD017220C2A8900109F1F /* score.swift in Sources */,
+				8348A08D221194FB004AF14A /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8308424E220AEC9D001F67FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8308424F220AEC9D001F67FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83084256220AEC9E001F67FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83084257220AEC9E001F67FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8308425A220AEC9E001F67FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8308425B220AEC9E001F67FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8308425D220AEC9E001F67FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CCC54C5E36D74070A62360E /* Pods-urban explorAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSG93UAH6U;
+				INFOPLIST_FILE = "urban explorAR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wainwright.christopher.urban-explorAR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8308425E220AEC9E001F67FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1742DDDD959ECE989C7019D3 /* Pods-urban explorAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSG93UAH6U;
+				INFOPLIST_FILE = "urban explorAR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wainwright.christopher.urban-explorAR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83084242220AEC9D001F67FE /* Build configuration list for PBXProject "urban explorAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8308425A220AEC9E001F67FE /* Debug */,
+				8308425B220AEC9E001F67FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8308425C220AEC9E001F67FE /* Build configuration list for PBXNativeTarget "urban explorAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8308425D220AEC9E001F67FE /* Debug */,
+				8308425E220AEC9E001F67FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		83084251220AEC9D001F67FE /* urban_explorAR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				83084252220AEC9D001F67FE /* urban_explorAR.xcdatamodel */,
+			);
+			currentVersion = 83084252220AEC9D001F67FE /* urban_explorAR.xcdatamodel */;
+			path = urban_explorAR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8308423F220AEC9D001F67FE /* Project object */;
+}
